@@ -7,5 +7,13 @@ capacidad.
  */
 package reservas;
 
+import reservas.controller.ReservasController;
+
 public class AppInit {
+	public static void main(String [] args){
+		ReservasController init = new ReservasController(10);
+		init.iniciar();
+
+	}
 }
+

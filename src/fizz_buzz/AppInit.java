@@ -7,5 +7,11 @@ ninguna condición, simplemente imprime el número.
  */
 package fizz_buzz;
 
+import fizz_buzz.controller.Controlador;
+
 public class AppInit {
+	public static void main(String[] args){
+		Controlador inicio = new Controlador();
+		inicio.iniciar();
+	}
 }

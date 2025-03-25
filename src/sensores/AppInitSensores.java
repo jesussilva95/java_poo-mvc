@@ -8,5 +8,12 @@ alarma está activada o no. Hacer menú para activar o desactivar la alarma.
  */
 package sensores;
 
+import sensores.controller.SensorController;
+
 public class AppInitSensores {
+	public static void main(String[] args){
+		SensorController sensor = new SensorController();
+		sensor.iniciar();
+	}
+
 }

@@ -7,5 +7,11 @@ al usuario realizar múltiples cálculos hasta que decida salir.
  */
 package calculadora;
 
+import calculadora.controller.CalculadoraControll;
+
 public class AppInit {
+	public static void main(String[] args){
+		CalculadoraControll control = new CalculadoraControll();
+		control.iniciar();
+	}
 }

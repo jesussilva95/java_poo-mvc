@@ -8,5 +8,11 @@ encendido o apagado.
 
 package aireAcondicionado;
 
+import aireAcondicionado.controller.AireController;
+
 public class AppAire {
+	public static void main(String[] args){
+		AireController aireAcondicionado = new AireController();
+		aireAcondicionado.iniciar();
+	}
 }

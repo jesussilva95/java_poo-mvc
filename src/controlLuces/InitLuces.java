@@ -8,5 +8,11 @@ segundos.
 
 package controlLuces;
 
+import controlLuces.controller.LucesController;
+
 public class InitLuces {
+	public static void main(String[] args){
+		LucesController luces = new LucesController();
+		luces.iniciar();
+	}
 }

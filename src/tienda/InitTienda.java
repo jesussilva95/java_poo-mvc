@@ -8,5 +8,11 @@ en un bucle y muestra si se permite el acceso.
 
 package tienda;
 
+import tienda.controller.TiendaController;
+
 public class InitTienda {
+	public static void main(String[] args){
+		TiendaController tienda = new TiendaController();
+		tienda.iniciar();
+	}
 }

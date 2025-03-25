@@ -9,5 +9,12 @@ segundos y muestra el estado del sistema (calefactor, ventilador o inactivo).
  */
 package temperature;
 
+import temperature.controller.TemperatureController;
+
 public class InitTemperature {
+	public static void main(String[] args){
+		TemperatureController inicio = new TemperatureController();
+		inicio.iniciar();
+	}
+
 }
